@@ -8,6 +8,59 @@ html {
 }
 
 div {
-  padding: .5rem;
+  margin: .3rem;
+  padding: .3rem;
   text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em;
+  border: 3px solid;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  border-color: #000;
+  color: #333;
+  background-color: #fff;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  border: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
